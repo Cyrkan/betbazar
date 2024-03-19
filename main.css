@@ -1,1 +1,66 @@
 
+.position-left{
+  float: left; 
+  width: 100%; 
+  justify-content: left;
+}
+.position-left .title-38.green-title, 
+.position-left .prodiuct-rich-specifications{
+	width:800px;
+}
+body .prodiuct-rich-specifications p{
+    text-transform: none;
+}
+
+@media only screen and (min-width: 1900px) {
+	.section {
+    height: auto;
+    padding-bottom: 9.17em;
+	}
+}
+
+@media screen and (max-width: 479px) {
+#right-decoration {
+    display: block !important;
+    width: 100% !important;
+    top: 65px !important;
+    background-position: -11% 68% !important;
+    height: 64vh !important;
+}
+}
+@media only screen and (max-width: 1300px) {
+.position-left .title-38.green-title, 
+.position-left .prodiuct-rich-specifications{
+	width:500px;
+}
+}
+@media only screen and (max-width: 767px) {
+.position-left .title-38.green-title, 
+.position-left .prodiuct-rich-specifications{
+	width:100%;
+}
+.position-left .full-width {
+    width: 200%;
+}
+}
+@media screen and (max-width: 400px) {
+#right-decoration {
+    top: 110px !important;
+}
+}
+
+@media only screen and (min-width: 991px) {
+.product-full-width {
+	 width: calc( ( 100% - 20px ) / 4 )!important;
+}
+.product-page-inner-column > .product-full-width {
+	 width: calc( ( 100% - 20px ) / 3 )!important;
+}
+}
+
+@media only screen and (min-width: 2466px) {
+.btn-green.mobile-hide.show-in-mob.contact-style {
+    width: 100%;
+    max-width: 300px;
+}
+}
